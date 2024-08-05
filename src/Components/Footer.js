@@ -7,8 +7,6 @@ import {
 } from 'mdb-react-ui-kit';
 
 
-
-
 const Footer = () => {
   
   return (
