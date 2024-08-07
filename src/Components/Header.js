@@ -10,9 +10,9 @@ const Header = () => {
       <Link to="/" className='font-bold flex text-white'>Keerthu's</Link>
       <nav className='hidden md:block'>
         <ul className='flex text-white'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/register">Register</Link></li>
+          <li>Home</li>
+          <li>Contact</li>  
+          <li>Task</li>
         </ul>
       </nav>
       {toggleMenu && <nav className='block md:hidden'>
