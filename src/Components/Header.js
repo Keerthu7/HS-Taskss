@@ -12,14 +12,14 @@ const Header = () => {
         <ul className='flex text-white'>
           <li>Home</li>
           <li>Contact</li>  
-          <li>Task</li>
+          <li><a href="/">Task</a></li>
         </ul>
       </nav>
       {toggleMenu && <nav className='block md:hidden'>
         <ul className='flex flex-col text-white mobile-nav'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/register">Register</Link></li>
+          <li><Link to="/login">Contact</Link></li>
+          <li><Link to="/TaskManagement">Task</Link></li>
         </ul>
       </nav>}
       <button onClick={() => setToggle(!toggleMenu)} className='block md:hidden'>
